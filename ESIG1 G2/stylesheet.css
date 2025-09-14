@@ -1,0 +1,50 @@
+body {
+    font-family: "Permanent Marker", cursive; /* Ajoutez une police de secours */
+    background-image: url('../ESIG1 G2/pictures/ChatGPT Image 12 sept. 2025, 23_08_25.png');
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FFFF;
+}
+
+a:visited {
+    color: #FFFF;
+}
+
+li{
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #FFFF;
+    color: black;
+    padding: 10px;
+    width: 75%; /* Prend toute la largeur de l'écran */
+    margin: auto; /* Supprime les marges */
+    border: saddlebrown;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.navbar a {
+    color: black;
+    display: block;
+    text-align: center;
+}
