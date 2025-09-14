@@ -10,7 +10,10 @@ h1{
 h2{
     color: white;
 }
-
+p{
+    color: white;
+    background-color: rgba(153,49,19,0.7);
+}
 a {
     color: white;
     text-decoration: underline;
@@ -35,8 +38,8 @@ li{
     background-color: #FFFF;
     color: black;
     padding: 10px;
-    width: 75%; /* Prend toute la largeur de l'écran */
-    margin: auto; /* Supprime les marges */
+    width: 75%;
+    margin: auto;
     border: saddlebrown;
     border-radius: 10px;
     text-align: left;
@@ -48,3 +51,47 @@ li{
     display: block;
     text-align: center;
 }
+
+label{
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.news{
+    display: flex;
+    margin-left: auto;
+    color: white;
+    background-color: rgba(153,49,19,0.7);
+    width: 25%;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: auto;
+}
+
