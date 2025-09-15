@@ -1,14 +1,19 @@
 body {
     font-family: "Permanent Marker", cursive; /* Ajoutez une police de secours */
     background-image: url('../ESIG1 G2/pictures/ChatGPT Image 12 sept. 2025, 23_08_25.png');
+    position: relative;
+    text-shadow: black 5px 5px 5px;
+
 }
 
 h1{
     color: white;
+    font-size: 60px;
 }
 
 h2{
     color: white;
+    font-size: 40px;
 }
 p{
     color: white;
@@ -29,6 +34,7 @@ a:visited {
 
 li{
     color: white;
+    font-size: 20px;
 }
 
 .navbar {
@@ -50,6 +56,7 @@ li{
     color: black;
     display: block;
     text-align: center;
+    text-shadow: none;
 }
 
 label{
@@ -80,18 +87,22 @@ input[type="submit"] {
     background-color: #4CAF50;
     color: white;
 }
-input[type="submit"]:hover {
-    background-color: #45a049;
+input[type="submit"]:hover body {
+    font-family: "Permanent Marker", cursive;
+    background-image: url('../ESIG1 G2/pictures/ChatGPT Image 12 sept. 2025, 23_08_25.png');
 }
 
-.news{
-    display: flex;
-    margin-left: auto;
+.news {
+    position: absolute;
+    top: 50px;
+    right: 10px;
     color: white;
     background-color: rgba(153,49,19,0.7);
     width: 25%;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     margin-bottom: auto;
 }
-
+section p{
+    background: none;
+}
